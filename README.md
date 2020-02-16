@@ -25,6 +25,9 @@ https://atnd.org/users/129340
 
 ```
 curl -L https://raw.githubusercontent.com/ko31/atnd-downloader/master/get.sh | bash -s -- [オーナーID]
+
+# 例）オーナーID が 129340 の場合
+curl -L https://raw.githubusercontent.com/ko31/atnd-downloader/master/get.sh | bash -s -- 129340
 ```
 
 `json` ディレクトリに次の json ファイルが保存されます。
